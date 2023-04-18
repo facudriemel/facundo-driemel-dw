@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+/* Fuente local*/
+@font-face {
+    color: white;
+    font-family: "Montserrat";
+    src: url('../recursos/fonts/Montserrat-Thin.ttf');
+}
+
+#logo-marca {
+    display: inline;
+    width: 150px;
+}
+
+h1 {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    font-family: "Montserrat", solid;
+    color: white;
+    background-color: #262626;
+    height: 26px;
+    width: auto;
+}
+
+/* BARRA NAVEGACION ESTILO */
+
+.header-barra-flex {
+    background-color: #959494;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: black;
+    font-family: "Montserrat";
+    text-decoration: double;
+    font-weight: bolder;
+}
+
+.navegacion-barra {
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 20px;
+    display: inline;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+/*---------------------------------seccion INICIO --------------------------------*/
+/*----------main INICIO ----------*/
+#main-index {
+    color: black;
+}
+
+
+.flex-main-index {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+
+
+}
+
+.caja-index {
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: whitesmoke;
+}
+
+.texto-grid-index {
+    background-color: white;
+    text-decoration: black;
+    font-size: 17px;
+}
+
+.caja-index img {
+    width: 100%;
+    height: 100%;
+}
+
+.volver-arriba {
+    text-align: center;
+    font-family: "Montserrat", solid;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 4px;
+    width: auto;
+
+}
+
+.volver-arriba:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/*---------------------------------seccion verano ---------------------------------*/
+/*----------main verano----------*/
+.flex-verano {
+    background-color: #80715f;
+    padding: 10px 90px 10px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-verano img {
+    height: 350px;
+    padding: 50px;
+}
+
+/* ---------------------------------seccion invierno--------------------------- */
+.flex-invierno {
+    background-color: #5f7393;
+    padding: 10px 90px 10px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-invierno img {
+    height: 350px;
+    padding: 50px;
+}
+
+/* --------------------------------------CONTACTO----------------------------------*/
+
+.contacto-info {
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.form-contacto {
+    width: 430px;
+    font-family: 'calibri';
+    color: white;
+    margin: auto;
+}
+
+
+.control {
+    width: 100%;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid #060606;
+}
+
+.form-contacto p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-contacto a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-contacto a:hover {
+    color: white;
+}
+
+.boton {
+    width: 100%;
+    background: #5f7393;
+    padding: 12px;
+    margin-left: 37px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* --------------------------------------MARCAS----------------------------------*/
+.marcasrecomendadas {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: solid black underline;
+}
+
+.containermarcas {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto marcanombrescalpers"
+        "foto info"
+        "foto NADA";
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+    padding-right: 150px;
+    margin-right: 50px;
+}
+
+.containermarcas img {
+    height: 450px;
+}
+
+.containermarcas .marcanombrescalpers {
+    font-size: 35px;
+}
+
+.foto {
+    grid-area: foto;
+}
+
+.NADA {
+    grid-area: NADA;
+}
+
+.info {
+    grid-area: info;
+}
+
+.marcanombrescalpers {
+    grid-area: marcanombrescalpers;
+}
+
+.video-pasarela {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* --------------------------------------FOOTER----------------------------------*/
+#footer {
+    color: #262626;
+    background-color:#262626 ;
+    height: 100%;
+}
+
+.containerfooter {
+    display: grid;
+    height: 15vw;
+    width: auto;
+    background-color: #262626;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    grid-template-areas:
+        "mensajeatencion mensajeatencion mensajeatencion"
+        "Direccion Direccion Direccion"
+        "redes logo numero"
+        "redes logo numero"
+        ". . .";
+
+}
+
+.mensajeatencion {
+    grid-area: mensajeatencion;
+    color: white;
+}
+
+.mensajeatencion:hover {
+    transform: translateY(-5px)
+}
+
+.Direccion {
+    grid-area: Direccion;
+    color: white;
+}
+.Direccion:hover {
+    transform: translateY(-5px)
+}
+
+.redes {
+    grid-area: redes;
+
+}
+
+.redes a {
+    color: white;
+    text-decoration: none;
+}
+
+.redes:hover {
+    transform: translateY(-5px)
+}
+
+
+.numero {
+    grid-area: numero;
+    color: white;
+}
+
+.numero:hover {
+    transform: translateY(-5px)
+}
+
+.logo {
+    grid-area: logo;
+}
+
+
+/* --------------------------------------RESPONSIVE----------------------------------*/
+/* -----------------RESPONSIVE INDEX----------------*/
+@media (max-width:2560px){
+    #main-index div img{
+        width: 100vw;
+    }
+    .caja-index-c3{
+        width: 100vw;
+    }
+
+}
+@media (max-width:1440px){
+    .containerfooter{
+        height: 14vw;
+    }
+
+}
+@media (max-width:1024px){
+    .containerfooter{
+        height: 27vw;
+    }
+    .header-barra-flex{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:768px){
+    .containerfooter{
+        height: 36vw;
+    }
+}
+@media (max-width:450px){
+    .containerfooter{
+        height: 100vw;
+    }
+    .texto-grid-index{
+        font-size: 11px;
+    }
+    .inicio{
+        font-size: 24px;
+    }
+    .verano-primavera{
+        font-size: 24px;
+    }
+    .invierno-otoño{
+        font-size: 24px;
+    }
+    .Contacto{
+        font-size: 24px;
+    }
+    .marcas{
+        font-size: 24px;
+    }
+    #logo-marca{
+        height: 110px;
+        width: 140px;
+    }
+ @media (max-width:450px){
+    .containerfooter{
+        height: 122vw;
+    }
+    .texto-grid-index {
+        font-size: 14px;
+    }
+ }
+
+}
+/* --------------------------------------RESPONSIVE----------------------------------*/
+/* -----------------RESPONSIVE VERANO-PRIMAVERA----------------*/
+@media (max-width:400px){
+    *{
+        width: auto;
+        height: min-content;
+    }
+}
