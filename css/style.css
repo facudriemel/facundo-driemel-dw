@@ -11,7 +11,7 @@
     src: url('../recursos/fonts/Montserrat-Thin.ttf');
 }
 
-#logo-marca {
+.logo-marca {
     display: inline;
     width: 150px;
 }
@@ -62,7 +62,7 @@ nav ul li {
 
 /*---------------------------------seccion INICIO --------------------------------*/
 /*----------main INICIO ----------*/
-#main-index {
+.main-index {
     color: black;
 }
 
@@ -253,7 +253,7 @@ h1 {
 
 
 /* --------------------------------------FOOTER----------------------------------*/
-#footer {
+.footer {
     color: #262626;
     background-color:#262626 ;
     height: 100%;
@@ -329,7 +329,7 @@ h1 {
 /* --------------------------------------RESPONSIVE----------------------------------*/
 /* -----------------RESPONSIVE INDEX----------------*/
 @media (max-width:2560px){
-    #main-index div img{
+    .main-index div img{
         width: 100vw;
     }
     .caja-index-c3{
@@ -379,7 +379,7 @@ h1 {
     .marcas{
         font-size: 24px;
     }
-    #logo-marca{
+    .logo-marca{
         height: 110px;
         width: 140px;
     }
